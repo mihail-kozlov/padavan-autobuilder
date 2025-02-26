@@ -20,7 +20,7 @@ sed -i 's/"Padavan_GUEST_2.4GHz"/"Xiaomi_Guest"/' padavan-ng/trunk/user/shared/d
 sed -i 's/"Padavan_GUEST_5GHz"/"Xiaomi_Guest_5G"/' padavan-ng/trunk/user/shared/defaults.h
 
 # Default timezone
-sed -i 's/EET-2EETDST/MSK/' padavan-ng/trunk/user/shared/defaults.h
+sed -i 's/EET-2EETDST/UTC-3/' padavan-ng/trunk/user/shared/defaults.h
 
 # NTP servers
 sed -i 's/pool.ntp.org/ru.pool.ntp.org/' padavan-ng/trunk/user/shared/defaults.h
