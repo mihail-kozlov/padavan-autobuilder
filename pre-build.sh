@@ -13,7 +13,7 @@ sed -i 's/UA/RU/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/UA/RU/' padavan-ng/trunk/user/shared/defaults.h
 
 # Custom defaults Wi-Fi SSID
-sed -i 's/"Padavan_2.4GHz"/"Xiaomi_2.4GHz"/' padavan-ng/trunk/user/shared/defaults.h
+sed -i 's/"Padavan_2.4GHz"/"Xiaomi_2.4G"/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/"Padavan_5GHz"/"Xiaomi_5G"/' padavan-ng/trunk/user/shared/defaults.h
 
 sed -i 's/"Padavan_GUEST_2.4GHz"/"Xiaomi_Guest"/' padavan-ng/trunk/user/shared/defaults.h
