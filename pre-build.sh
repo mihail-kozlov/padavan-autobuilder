@@ -7,7 +7,7 @@ DEBIAN_FRONTEND=noninteractive apt install tzdata -y
 sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/192.168.1.2/192.168.31.2/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/192.168.1.254/192.168.31.254/' padavan-ng/trunk/user/shared/defaults.h
----
+#---
 sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_APLAN_Content.asp
 sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_LAN_Content.asp
 sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_SettingBackup_Content.asp
@@ -16,7 +16,7 @@ sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/dict/EN.dict
 sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/dict/RU.dict
 
 # Footer Modding
-awk '/Hadzhioglu/{print; print "	footer_code +='  <span>Firmware compiled by Mikhail Kozlov</span></br>\n';"; next}1' padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
+awk '/Hadzhioglu/{print; print "	footer_code +=\'  \<span\>Firmware compiled by Mikhail Kozlov\<\/span\>\<\/br\>\\n\';"; next}1' padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
 
 # Wi-Fi Country Code
 sed -i 's/UA/RU/' padavan-ng/trunk/user/shared/defaults.h
