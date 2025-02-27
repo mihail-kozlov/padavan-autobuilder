@@ -15,6 +15,10 @@ sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/n56u_ribbon_fixed
 sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/dict/EN.footer
 sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/dict/RU.dict
 
+sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/rc/net_wan.c
+sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/scripts/mtd_storage.sh
+sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/httpd/https-cert.sh
+
 # Footer Modding
 sed -i "/Hadzhioglu/ a \	footer_code +='  <span>Firmware compiled by Mikhail Kozlov</span></br>\\x5C\\x6E\\';" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
 grep -C 1 "Firmware compiled" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
