@@ -17,7 +17,7 @@ sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/www/dict/RU.dict
 
 # Footer Modding
 sed -i "/Hadzhioglu/ a \	footer_code +='  <span>Firmware compiled by Mikhail Kozlov</span></br>\\x5C\\x6E\\';" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
-grep -C 1 "Firmware build" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
+grep -C 1 "Firmware compiled" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
 
 # Wi-Fi Country Code
 sed -i 's/UA/RU/' padavan-ng/trunk/user/shared/defaults.h
