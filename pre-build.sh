@@ -49,5 +49,5 @@ cat padavan-ng/trunk/user/shared/defaults.h
 echo "<--------------------------------------------------------------------------------->"
 
 # Rename
-mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-3_SPI" "padavan-ng/trunk/configs/boards/XIAOMI/Mi-Router-3_[SPI]"
+mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-3_SPI" "padavan-ng/trunk/configs/boards/XIAOMI/Mi-Router-3_SPI"
 ls padavan-ng/trunk/configs/boards/XIAOMI/
