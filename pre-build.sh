@@ -22,7 +22,9 @@ sed -i 's/my.router/miwifi.com/g' padavan-themes-main/jquery.js
 
 # Footer Modding
 sed -i "/Hadzhioglu/ a \	footer_code +='  <span>Firmware compiled by Mikhail Kozlov</span></br>\\x5C\\x6E\\';" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
+echo "<--------------------------------------------------------------------------------->"
 grep -C 1 "Firmware compiled" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
+echo "<--------------------------------------------------------------------------------->"
 
 # Wi-Fi Country Code
 sed -i 's/UA/RU/g' padavan-ng/trunk/user/shared/defaults.h
@@ -42,7 +44,9 @@ sed -i 's/pool.ntp.org/ru.pool.ntp.org/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/time.in.ua/time.nist.gov/' padavan-ng/trunk/user/shared/defaults.h
 
 # Show results
+echo "<--------------------------------------------------------------------------------->"
 cat padavan-ng/trunk/user/shared/defaults.h
+echo "<--------------------------------------------------------------------------------->"
 
 # Rename
 mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-3_SPI" "padavan-ng/trunk/configs/boards/XIAOMI/Mi-Router-3_[SPI]"
