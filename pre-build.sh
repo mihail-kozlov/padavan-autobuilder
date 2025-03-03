@@ -43,3 +43,6 @@ sed -i 's/time.in.ua/time.nist.gov/' padavan-ng/trunk/user/shared/defaults.h
 
 # Show results
 cat padavan-ng/trunk/user/shared/defaults.h
+
+# Rename
+mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-3_SPI" "padavan-ng/trunk/configs/boards/XIAOMI/Mi Router 3 [SPI]"
