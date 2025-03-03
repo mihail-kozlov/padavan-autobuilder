@@ -43,6 +43,3 @@ sed -i 's/time.in.ua/time.nist.gov/' padavan-ng/trunk/user/shared/defaults.h
 
 # Show results
 cat padavan-ng/trunk/user/shared/defaults.h
-
-sed -i 's/MI-3_SPI/Mi Router 3 [SPI]/' padavan-ng/trunk/.config
-grep "CONFIG_FIRMWARE_PRODUCT_ID" padavan-ng/trunk/.config
