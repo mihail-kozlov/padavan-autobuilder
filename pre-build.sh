@@ -50,3 +50,4 @@ echo "<-------------------------------------------------------------------------
 
 # Rename
 mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-3_SPI" "padavan-ng/trunk/configs/boards/XIAOMI/Mi-Router-3_[SPI]"
+ls padavan-ng/trunk/configs/boards/XIAOMI/
