@@ -37,6 +37,8 @@ sed -i 's/"Padavan_5GHz"/"Xiaomi_5G"/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/"Padavan_GUEST_2.4GHz"/"Xiaomi_Guest"/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/"Padavan_GUEST_5GHz"/"Xiaomi_Guest_5G"/' padavan-ng/trunk/user/shared/defaults.h
 
+sed -i 's/"lan_domain", ""/"lan_domain", "miwifi.com"/' padavan-ng/trunk/user/shared/defaults.c
+
 # Default timezone
 sed -i 's/EET-2EETDST/UTC-3/' padavan-ng/trunk/user/shared/defaults.h
 
@@ -50,5 +52,5 @@ cat padavan-ng/trunk/user/shared/defaults.h
 echo "<--------------------------------------------------------------------------------->"
 
 # Rename
-mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-3_SPI" "padavan-ng/trunk/configs/boards/XIAOMI/Mi-Router-3_SPI"
+mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-3_SPI" "padavan-ng/trunk/configs/boards/XIAOMI/MiWiFi-R3"
 ls padavan-ng/trunk/configs/boards/XIAOMI/
