@@ -21,11 +21,16 @@ sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/httpd/https-cert.sh
 sed -i 's/my.router/miwifi.com/g' padavan-themes-main/jquery.js
 
 # Change default theme like Xiaomi
-sed -i 's/width: 150px/width: 201px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
-sed -i 's/height: 71px/height: 82px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
+sed -i 's/width: 150px/width: 248px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
+sed -i 's/height: 71px/height: 68px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/#181818/#1782dd/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
+sed -i 's/padavan_logo/miwifi_logo/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 cp favicon.ico padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.ico
-cp xiaomi_big.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/padavan_logo.png
+cp miwifi_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
+rm padavan_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
+sed -i 's/n56u.png/router_r1cm.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_OperationMode_Content.asp
+cp router_r1cm.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
+
 cp *.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 
 # Footer Modding
