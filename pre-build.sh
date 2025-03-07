@@ -26,7 +26,7 @@ sed -i 's/height: 71px/height: 82px/' padavan-ng/trunk/user/www/n56u_ribbon_fixe
 sed -i 's/#181818/#1782dd/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 cp favicon.ico padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.ico
 cp xiaomi_big.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/padavan_logo.png
-
+cp *.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 
 # Footer Modding
 sed -i "s/Firmware distribution is prohibited/Compiled by Mikhail Kozlov. Firmware distribution is prohibited/" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
