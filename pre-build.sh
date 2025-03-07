@@ -28,7 +28,7 @@ cp xiaomi_big.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/pada
 
 
 # Footer Modding
-sed -i "/Firmware distribution is prohibited/Compiled by Mikhail Kozlov. Firmware distribution is prohibited" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
+sed -i "/Firmware distribution is prohibited/Compiled by Mikhail Kozlov. Firmware distribution is prohibited/" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
 echo "<--------------------------------------------------------------------------------->"
 grep -C 1 "Compiled" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
 echo "<--------------------------------------------------------------------------------->"
