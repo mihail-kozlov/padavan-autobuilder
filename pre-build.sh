@@ -20,7 +20,7 @@ sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/scripts/mtd_storage.sh
 sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/httpd/https-cert.sh
 sed -i 's/my.router/miwifi.com/g' padavan-themes-main/jquery.js
 
-# Change default icons
+# Change default theme like Xiaomi
 sed -i 's/width: 150px/width: 201px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/height: 71px/height: 82px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/#181818/#1782dd/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
