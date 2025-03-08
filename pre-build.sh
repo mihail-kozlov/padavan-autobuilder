@@ -24,10 +24,13 @@ sed -i 's/my.router/miwifi.com/g' padavan-themes-main/jquery.js
 sed -i 's/width: 150px/width: 210px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/height: 71px/height: 58px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/#181818/#1363b3/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
+
 sed -i 's/padavan_logo/miwifi_logo/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 cp -vp favicon.ico padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.ico
+
 cp -vp miwifi_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
-rm -f padavan_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
+rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/padavan_logo.png 
+
 cp -vp itoggle.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 sed -i 's/width: 59px/width: 61px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/engage.itoggle.css
 
@@ -41,8 +44,8 @@ cp -vp clients.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_
 cp -vp router_r1cm.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp -vp internet.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp -vp server.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
-rm -f n56u.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
-rm -f globe.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
+rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/n56u.png
+rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/globe.png
 
 # Footer Modding
 sed -i 's/Firmware distribution is prohibited/Compiled by Mikhail Kozlov. Firmware distribution is prohibited/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
