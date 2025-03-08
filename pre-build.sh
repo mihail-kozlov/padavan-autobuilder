@@ -30,6 +30,7 @@ cp miwifi_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 rm padavan_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 cp itoggle.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 sed -i 's/width: 59px/width: 61px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/engage.itoggle.css
+sed -i 's/#468847/#1363b3' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/bootstrap.min.css
 
 # Logo format
 sed -i 's!<center><div id="logo"><\/div><\/center>!<left><div id="logo"><\/div><\/left>!' padavan-ng/trunk/user/www/n56u_ribbon_fixed/*.asp
