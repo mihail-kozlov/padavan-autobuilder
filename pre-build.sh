@@ -44,6 +44,7 @@ cp -vp clients.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_
 cp -vp router_r1cm.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp -vp internet.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp -vp server.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
+rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/n56u.gif
 rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/n56u.png
 rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/globe.png
 
