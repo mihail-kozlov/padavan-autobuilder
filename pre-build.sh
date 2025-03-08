@@ -30,7 +30,7 @@ cp miwifi_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 rm padavan_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 
 # Logo format
-sed -i 's^<center><div id="logo"></div></center>^<left><div id="logo"></div></left>^ padavan-ng/trunk/user/www/n56u_ribbon_fixed/*.asp
+sed -i 's!<center><div id="logo"><\/div><\/center>!<left><div id="logo"><\/div><\/left>!' padavan-ng/trunk/user/www/n56u_ribbon_fixed/*.asp
 
 # Router Mode
 sed -i 's/n56u.png/router_r1cm.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_OperationMode_Content.asp
