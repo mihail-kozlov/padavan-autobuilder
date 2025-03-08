@@ -28,6 +28,8 @@ sed -i 's/padavan_logo/miwifi_logo/' padavan-ng/trunk/user/www/n56u_ribbon_fixed
 cp favicon.ico padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.ico
 cp miwifi_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 rm padavan_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
+cp itoggle.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
+sed -i 's/width: 59px/width: 61px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/engage.itoggle.css
 
 # Logo format
 sed -i 's!<center><div id="logo"><\/div><\/center>!<left><div id="logo"><\/div><\/left>!' padavan-ng/trunk/user/www/n56u_ribbon_fixed/*.asp
@@ -38,7 +40,6 @@ sed -i 's/globe.png/internet.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/A
 cp clients.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp router_r1cm.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp internet.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
-
 cp *.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 
 # Footer Modding
