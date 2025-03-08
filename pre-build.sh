@@ -40,6 +40,8 @@ sed -i 's/globe.png/internet.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/A
 cp clients.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp router_r1cm.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp internet.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
+rm n56u.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
+rm globe.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp *.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 
 # Footer Modding
