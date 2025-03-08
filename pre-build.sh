@@ -43,7 +43,6 @@ cp -vp internet.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl
 cp -vp server.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 rm -f n56u.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 rm -f globe.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
-cp -vp *.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 
 # Footer Modding
 sed -i 's/Firmware distribution is prohibited/Compiled by Mikhail Kozlov. Firmware distribution is prohibited/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
