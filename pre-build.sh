@@ -28,8 +28,13 @@ sed -i 's/padavan_logo/miwifi_logo/' padavan-ng/trunk/user/www/n56u_ribbon_fixed
 cp favicon.ico padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.ico
 cp miwifi_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 rm padavan_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
+
+# Router Mode
 sed -i 's/n56u.png/router_r1cm.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_OperationMode_Content.asp
+sed -i 's/globe.png/internet.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_OperationMode_Content.asp
+cp clients.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp router_r1cm.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
+cp internet.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 
 cp *.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 
