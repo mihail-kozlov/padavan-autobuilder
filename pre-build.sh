@@ -21,13 +21,16 @@ sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/httpd/https-cert.sh
 sed -i 's/my.router/miwifi.com/g' padavan-themes-main/jquery.js
 
 # Change default theme like Xiaomi
-sed -i "s/font-family:.*sans-serif/font-family:\'Helvetica Neue\',\'Microsoft Yahei\',arial,helvetica,sans-serif/g" padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/*.css
+#sed -i "s/font-family:.*sans-serif/font-family:\'Helvetica Neue\',\'Microsoft Yahei\',arial,helvetica,sans-serif/g" padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/*.css
 sed -i 's/#181818/#1363b3/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/width: 150px/width: 210px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/height: 71px/height: 58px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/margin-top: 40px/margin-top: 50px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/padavan_logo/miwifi_logo/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 cp -vp favicon.ico padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.ico
+cp -vp favicon.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.png
+
+cp -vp bg_body.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 
 cp -vp miwifi_logo.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/padavan_logo.png 
