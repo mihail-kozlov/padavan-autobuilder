@@ -21,7 +21,7 @@ sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/httpd/https-cert.sh
 sed -i 's/my.router/miwifi.com/g' padavan-themes-main/jquery.js
 
 # Change default theme like Xiaomi
-sed -i 's/font-family:.*sans-serif/font-family:\'Helvetica Neue\',\'Microsoft Yahei\',arial,helvetica,sans-serif/g' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/*.css
+sed -i "s/font-family:.*sans-serif/font-family:\'Helvetica Neue\',\'Microsoft Yahei\',arial,helvetica,sans-serif/g" padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/*.css
 sed -i 's/#181818/#1363b3/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/width: 150px/width: 210px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/height: 71px/height: 58px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
@@ -36,7 +36,7 @@ cp -vp itoggle.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 sed -i 's/width: 59px/width: 61px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/engage.itoggle.css
 
 # Logo format
-sed -i 's^\<center\>\<div id=\"logo\"\>\</div\>\</center\>^\<left\>\<div id=\"logo\"\>\</div\>\</left\>^' padavan-ng/trunk/user/www/n56u_ribbon_fixed/*.asp
+sed -i "s^\<center\>\<div id=\"logo\"\>\</div\>\</center\>^\<left\>\<div id=\"logo\"\>\</div\>\</left\>^" padavan-ng/trunk/user/www/n56u_ribbon_fixed/*.asp
 
 # Router Mode
 sed -i 's/n56u.png/router_r1cm.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_OperationMode_Content.asp
