@@ -70,6 +70,9 @@ sed -i 's/EET-2EETDST/UTC-3/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/pool.ntp.org/ru.pool.ntp.org/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/time.in.ua/time.nist.gov/' padavan-ng/trunk/user/shared/defaults.h
 
+# Footer mod
+sed -i 's/LABEL_COPYRIGHT_TEXT=\".*"/LABEL_COPYRIGHT_TEXT=\"© 2011-\`date +\'%Y\'\` Padavan \& N56U Project Community\"/' padavan-ng/trunk/Makefile
+
 # Show results
 echo "<--------------------------------------------------------------------------------->"
 
