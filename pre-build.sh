@@ -21,19 +21,9 @@ sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/httpd/https-cert.sh
 sed -i 's/my.router/miwifi.com/g' padavan-themes-main/jquery.js
 
 # Change default theme like Xiaomi
-#sed -i "s/font-size: 13px/font-size: 14px/g" padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/bootstrap.css
-#echo "font-size 13px -> 14 px"
+cp -vp main.css padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/
 cp -vp bootstrap.min.css padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/
-#sed -i "s/font-family:.*sans-serif/font-family:\'Helvetica Neue\',\'Microsoft Yahei\',arial,helvetica,sans-serif/g" padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/bootstrap.css
-#echo "font-family modified"
-
-grep -A 7 ^body.* padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/bootstrap.css
-
-sed -i 's/#181818/#1363b3/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
-sed -i 's/width: 150px/width: 210px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
-sed -i 's/height: 71px/height: 58px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
-sed -i 's/margin-top: 40px/margin-top: 50px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
-sed -i 's/padavan_logo/miwifi_logo/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
+cp -vp state.js padavan-ng/trunk/user/www/n56u_ribbon_fixed/
 cp -vp favicon.ico padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.ico
 cp -vp favicon.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/images/favicon.png
 
@@ -59,12 +49,6 @@ rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/n56u.g
 rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/n56u.png
 rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/globe.png
 
-# Footer Modding
-sed -i 's/Firmware distribution is prohibited/Compiled by Mikhail Kozlov. Firmware distribution is prohibited/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
-echo "<--------------------------------------------------------------------------------->"
-grep -C 1 "Compiled" padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
-echo "<--------------------------------------------------------------------------------->"
-
 # Wi-Fi Country Code
 sed -i 's/UA/RU/g' padavan-ng/trunk/user/shared/defaults.h
 
@@ -85,8 +69,6 @@ sed -i 's/pool.ntp.org/ru.pool.ntp.org/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/time.in.ua/time.nist.gov/' padavan-ng/trunk/user/shared/defaults.h
 
 # Show results
-echo "<--------------------------------------------------------------------------------->"
-cat padavan-ng/trunk/user/shared/defaults.h
 echo "<--------------------------------------------------------------------------------->"
 
 # Rename
