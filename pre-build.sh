@@ -27,6 +27,8 @@ echo "font-size 13px -> 14 px"
 sed -i "s/font-family:.*sans-serif/font-family:\'Helvetica Neue\',\'Microsoft Yahei\',arial,helvetica,sans-serif/g" padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/bootstrap.css
 echo "font-family modified"
 
+grep -A 7 ^body.* www/n56u_ribbon_fixed/bootstrap/css/bootstrap.css
+
 sed -i 's/#181818/#1363b3/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/width: 150px/width: 210px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/height: 71px/height: 58px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
