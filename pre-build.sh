@@ -21,8 +21,11 @@ sed -i 's/my.router/miwifi.com/' padavan-ng/trunk/user/httpd/https-cert.sh
 sed -i 's/my.router/miwifi.com/g' padavan-themes-main/jquery.js
 
 # Change default theme like Xiaomi
-#sed -i "s/font-family:.*sans-serif/font-family:\'Helvetica Neue\',\'Microsoft Yahei\',arial,helvetica,sans-serif/g" padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/*.css
-sed -i "s/font-size: 13px/font-size: 14px/g" padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/bootstrap.css
+sed -i "s/font-size: 13px/font-size: 14px/g" www/n56u_ribbon_fixed/bootstrap/css/bootstrap.css
+echo "font-size 13px -> 14 px"
+
+sed -i "s/font-family:.*sans-serif/font-family:\'Helvetica Neue\',\'Microsoft Yahei\',arial,helvetica,sans-serif/g" www/n56u_ribbon_fixed/bootstrap/css/*.css
+echo "font-family modified"
 
 sed -i 's/#181818/#1363b3/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
 sed -i 's/width: 150px/width: 210px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css
