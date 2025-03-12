@@ -59,6 +59,7 @@ body.body_iframe{
 }
 .round_bottom {
     border-radius: 0 0 3px 3px;
+    background-color: #fff;
 }
 .round_left {
     border-radius: 3px 0 0 3px;
