@@ -137,7 +137,7 @@ body.body_iframe{
 }
 .side_nav ul a {
     display: block;
-    font: bold 12px/30px sans-serif;
+    font: bold 14px/30px 'Helvetica Neue','Microsoft Yahei',arial,helvetica,sans-serif;
     padding: 0 10px;
     text-decoration: none;
     /*white-space: nowrap;*/
