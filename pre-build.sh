@@ -36,9 +36,9 @@ cp -vp itoggle.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 sed -i 's/width: 59px/width: 61px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/engage.itoggle.css
 
 # System_Info & TrafficMonitor fix
-sed -i 's/padding-left: 5px/padding-left: 50px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_System_Info.asp
-sed -i 's/padding-left: 5px/padding-left: 50px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Main_TrafficMonitor_realtime.asp
-sed -i 's/padding-left: 5px/padding-left: 50px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Main_TrafficMonitor_last24.asp
+sed -i 's/padding-left: 5px/padding-left: 30px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_System_Info.asp
+sed -i 's/padding-left: 5px/padding-left: 30px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Main_TrafficMonitor_realtime.asp
+sed -i 's/padding-left: 5px/padding-left: 30px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Main_TrafficMonitor_last24.asp
 
 # Router Mode
 sed -i 's/n56u.png/router_r1cm.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_OperationMode_Content.asp
