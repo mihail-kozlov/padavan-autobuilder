@@ -286,10 +286,6 @@ li:last-child > div.accordion > a:last-child {
     color: #666666;
 }
 
-.clearfix li div.accordion a:hover {
-    font-weight: bold;
-}
-
 li div.accordion a {
     background: none repeat scroll 0 0 #1782dd;
     padding-left: 13%;
