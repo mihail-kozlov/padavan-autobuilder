@@ -240,8 +240,8 @@ ul#icons span.ui-icon {
     border-right: medium none;
 }
 .bar_nav ul li a, .side_nav ul li a {
-    border-bottom: 1px solid #DDDDDD;
-    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #1782dd;
+    border-top: 1px solid #1782dd;
 }
 .bar_nav ul li.active:last-child > a, .side_nav ul li.active:last-child > a {
     border-radius: 0 0 0 0;
@@ -291,7 +291,7 @@ li:last-child > div.accordion > a:last-child {
 }
 
 li div.accordion a {
-    background: none repeat scroll 0 0 #F5F5F5;
+    background: none repeat scroll 0 0 #1782dd;
     padding-left: 13%;
     font-weight: normal;
 }
