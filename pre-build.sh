@@ -35,6 +35,9 @@ rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/padavan_logo.png
 cp -vp itoggle.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/
 sed -i 's/width: 59px/width: 61px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/css/engage.itoggle.css
 
+#Main Menu fix
+sed -i 's/well sidebar-nav side_nav/sidebar-nav side_nav/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/*.asp
+
 # System_Info & TrafficMonitor fix
 sed -i 's/padding-left: 5px/padding-left: 30px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_System_Info.asp
 sed -i 's/padding-left: 5px/padding-left: 30px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Main_TrafficMonitor_realtime.asp
