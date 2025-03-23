@@ -49,6 +49,9 @@ body.body_iframe{
 	font-size: 12px;
 	line-height: 1.5;
 }
+#tabMenu a, #tabMenu a:hover, #TopBanner a, #TopBanner a:hover {
+    color:#2673bf
+}
 .form_thin{margin-bottom: 0px}
 
 .round_all {
