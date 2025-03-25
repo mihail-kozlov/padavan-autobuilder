@@ -37,6 +37,7 @@ sed -i 's/width: 59px/width: 61px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/
 
 #Main Menu fix
 sed -i 's/well sidebar-nav side_nav/sidebar-nav side_nav/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/*.asp
+sed -i 's/69px/79px/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/index.asp
 sed -i 's/#005580/#fff/g' padavan-ng/trunk/user/www/n56u_ribbon_fixed/state.js
 
 # System_Info & TrafficMonitor fix
