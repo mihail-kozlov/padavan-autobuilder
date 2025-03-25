@@ -42,7 +42,7 @@ body.body_iframe{
 }
 #footer a:hover {
 	color: #fff;
-	text-decoration: underline;
+	text-decoration: none;
 }
 #footer p span {
 	margin:0 15px;
