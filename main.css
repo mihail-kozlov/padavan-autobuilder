@@ -209,7 +209,7 @@ ul#icons span.ui-icon {
     border-radius: 5px 5px 5px 5px;
 }
 .bar_nav ul ul, .side_nav ul ul {
-    border: 1px solid #666666;
+    border: 1px solid #1782dd;
 }
 .bar_nav ul li a, .side_nav ul li a {
     text-shadow: none;
@@ -231,7 +231,7 @@ ul#icons span.ui-icon {
     border-right: medium none;
 }
 .bar_nav > ul > li:hover > a {
-    border-color: transparent #666666 #888B90;
+    border-color: transparent #1782dd #1782dd;
     border-style: solid;
     border-width: 1px;
     display: block;
@@ -253,17 +253,17 @@ li:last-child > div.accordion > a:last-child {
     border-bottom: medium none;
 }
 .bar_nav ul li ul li:last-child > a:hover, .side_nav ul li ul li:last-child > a:hover {
-    border-bottom: 1px solid #888B90;
+    border-bottom: 1px solid #1782dd;
 }
 .bar_nav ul li ul li:first-child > a, .side_nav ul li ul li:first-child > a {
     border-top: 0 solid transparent;
 }
 .bar_nav ul li ul li:first-child:hover > a, .side_nav ul li ul li:first-child:hover > a {
-    border-top: 0 solid #999999;
+    border-top: 0 solid #1782dd;
 }
 .bar_nav ul ul li:hover > a, .side_nav ul li:hover > a {
-    border-bottom: 1px solid #888B90;
-    border-top: 1px solid #888888;
+    border-bottom: 1px solid #1782dd;
+    border-top: 1px solid #1782dd;
     cursor: pointer;
 }
 .bar_nav > ul > li > ul li:first-child > a, .side_nav > ul li:first-child > a {
@@ -278,15 +278,15 @@ li:last-child > div.accordion > a:last-child {
 }
 
 .clearfix li.active > a {
-    border-bottom: 1px solid #666666;
-    border-top: 1px solid #888888;
+    border-bottom: 1px solid #1782dd;
+    border-top: 1px solid #1782dd;
     color: #FFFFFF;
     text-shadow: none !important;
 }
 
 .clearfix li div.accordion {
     border-top: 0 solid #FFFFFF;
-    color: #666666;
+    color: #1782dd;
 }
 
 li div.accordion a {
