@@ -83,5 +83,5 @@ grep ^LABEL_COPYRIGHT_TEXT.* padavan-ng/trunk/user/www/Makefile
 echo "<--------------------------------------------------------------------------------->"
 
 # Rename
-mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-MINI" "padavan-ng/trunk/configs/boards/XIAOMI/MiWiFi-mini"
+mv "padavan-ng/trunk/configs/boards/XIAOMI/MI-3" "padavan-ng/trunk/configs/boards/XIAOMI/MiWiFi-R3"
 ls padavan-ng/trunk/configs/boards/XIAOMI/
