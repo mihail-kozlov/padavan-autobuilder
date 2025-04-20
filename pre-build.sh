@@ -2,7 +2,7 @@
 ln -snf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 apt update
 DEBIAN_FRONTEND=noninteractive apt install tzdata -y
-
+echo "<---Start Stok Like Modifications--->"
 # Default Device Manager Website
 sed -i 's/192.168.1.1/192.168.31.1/' padavan-ng/trunk/user/shared/defaults.h
 sed -i 's/192.168.1.2/192.168.31.2/' padavan-ng/trunk/user/shared/defaults.h
