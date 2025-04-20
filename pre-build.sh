@@ -49,7 +49,7 @@ sed -i 's/padding-left: 5px/padding-left: 30px/' padavan-ng/trunk/user/www/n56u_
 sed -i 's/n56u.png/router_r3.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_OperationMode_Content.asp
 sed -i 's/globe.png/internet.png/' padavan-ng/trunk/user/www/n56u_ribbon_fixed/Advanced_OperationMode_Content.asp
 cp -vp clients.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
-cp -vp router_r1cm.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
+cp -vp router_r3.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp -vp internet.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 cp -vp server.png padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/
 rm -f padavan-ng/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/wl_device/n56u.gif
